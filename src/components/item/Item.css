@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fbfbfb;
+    border: 1px solid #408080;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+.itemName {
+    flex: 1;
+    margin-left: 10px;
+    color: #4f4fff;
+    font-weight:600;
+}
+.itemPrice {
+    flex:1;
+    color:#ff3e3e;
+    font-weight: 600;
+}
+.itemButton {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #408080;
+    color: #fff;
+    font-weight:bold;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.itemList {
+    flex: 1;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
